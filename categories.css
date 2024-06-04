@@ -1,0 +1,114 @@
+/* Body styling */
+body {
+    font-family: serif;
+    margin: 0.5px;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+meta {
+    padding: 10px;
+}
+
+
+
+/* Grid layout styles */
+section {
+    display: block;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+article{
+    cursor: pointer;
+}
+
+article:hover {
+    background-color: #abb2bd;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(24, 3, 3, 0.2);
+}
+
+article img {
+    width: 100%;
+    max-width: 3000px;
+    height: auto;
+    border-radius: 10px;
+}
+
+article h3 {
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+article p {
+    margin: 2.5px 0;
+    font-size: 1.1em;
+}
+
+article button {
+    padding: 5px 10px;
+    margin-top: 3px;
+    border: black;
+    background-color: #1a1313;
+    color: rgb(216, 33, 33);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+article button:hover {
+    background-color: #b6d9f3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #221f1f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
